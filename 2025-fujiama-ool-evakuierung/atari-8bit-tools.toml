@@ -1,0 +1,2 @@
+source_directory = "asm"
+output_directory = "generated"

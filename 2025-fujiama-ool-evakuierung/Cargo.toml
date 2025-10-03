@@ -1,0 +1,9 @@
+[package]
+name = "ool-evakuierung"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = { version = "1.0.99", default-features = false }
+atari-8bit-tools = { git = "https://github.com/alexkazik/atari-8bit-tools.git", tag = "0.1.0", features = ["cli"] }
+clap = { version = "4.5.47", default-features = false }
